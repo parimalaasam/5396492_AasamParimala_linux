@@ -1,0 +1,7 @@
+here I am pasting my screen shorts of cmds.
+basic cmds
+filter and pattern matching cmd
+System Info & Environment
+date and time and calendar
+shell scripting
+file views

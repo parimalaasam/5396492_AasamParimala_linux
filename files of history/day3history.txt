@@ -1,0 +1,283 @@
+    1  sudo apt install gedit
+    2  exit
+    3  sudo apt install gedit
+    4  sudo apt update
+    5  apt list --upgradable
+    6  sudo apt install gedit
+    7  sudo snap install gedit
+    8  gedit
+    9  bc
+   10  date
+   11  bc
+   12  date
+   13  bc
+   14  nano run_all.sh
+   15  ls
+   16  top
+   17  pwd
+   18  gcc
+   19  python
+   20  quit
+   21  exit
+   22  date
+   23  bc
+   24  sudo apt update
+   25  sudo apt upgrade
+   26  clear
+   27  echo $SHELL 
+   28  printenv SHELL
+   29  whoami
+   30  whatis echo
+   31  whatis printenv
+   32  whatis whoami
+   33  whatis cat
+   34  whereis cat
+   35  whereis gcc
+   36  info cat
+   37  sudo apt install gcc
+   38  clear
+   39  sudo apt install build-essential
+   40  date
+   41  date "+%D"
+   42  date"+%D%T"
+   43  date "+%D%T"
+   44  date "+%Y/%m/%d"
+   45  date "+%A %B %d %Y %T"
+   46  date --date "tomorrow"
+   47  date --date "2 years ago"
+   48  man date
+   49  clear
+   50  cal
+   51  sudo apt install ncal
+   52  cal
+   53  cal 7 2025
+   54  cal 5 2025
+   55  cal 2025
+   56  cal -3 2025
+   57  cal -3
+   58  clear
+   59  ps
+   60  bc
+   61  bc <<< "12/5"
+   62  bc <<< "scale=2; 12/5"
+   63  bc <<"2>5"
+   64  q
+   65  quit
+   66  bc <<< "2/5"
+   67  claer
+   68  q
+   69  clear
+   70  bc <<< "2^10"
+   71  uname
+   72  uname -o
+   73  uname -i
+   74  uname -n
+   75  uname -v
+   76  uname -s
+   77  uname -m
+   78  uname -r
+   79  uname -a
+   80  ech0 "Welcome to linux"
+   81  echo "welcome to linux"
+   82  echo -e "hello \t world"
+   83  echo -n "hello world"
+   84  echo "welcome to \"linkux\""
+   85  echo 'date'
+   86  echo "this is
+   87  linux
+   88  trainig
+   89  for 
+   90  notchup
+   91  july 2025"
+   92  echo "this is linux traning for notchup julu 2025"
+   93  pringf "linux training"
+   94  printf "linux trainig"
+   95  printf"linux trainig\n"
+   96  printf "linux trainging\n"
+   97  printf "my shell is %s\n" $SHELL
+   98  seq 1 10
+   99  seq 1 3 10
+  100  seq 10 -11
+  101  seq 10-11
+  102  seq 10 -1 1
+  103  seq -s " " 10
+  104  seq -s 5 10
+  105  seq -s " " 5 3 50
+  106  rev <<< linux
+  107  history
+  108  seq 1 10
+  109  echo $?
+  110  false
+  111  ls
+  112  nano newfile
+  113  cd new
+  114  mkdir new
+  115  cd new
+  116  ls
+  117  cd
+  118  cd -
+  119  mkdir -p d1/d2
+  120  ls
+  121  cd d1
+  122  ls
+  123  ls -l
+  124  ls -a
+  125  ls -R
+  126  nano demo
+  127  touch newfile.txt
+  128  nano newfile.txt
+  129  cat newfile.txt
+  130  cat newfile.txt >output.txt
+  131  cat output.txt
+  132  cat -n demo
+  133  ls
+  134  mkdir training
+  135  cp newfile output.txt trainig
+  136  cp newfile output.txt training
+  137  cd training
+  138  ls
+  139  ls -R
+  140  cp -r new training
+  141  ls
+  142  cd training
+  143  ls
+  144  cd new
+  145  vi sum.c
+  146  gcc ifelse.c
+  147  echo $SHELL
+  148  sudo apt install gcc
+  149  sudo apt install g++
+  150  sudo apt install build-essential
+  151  date && whoami
+  152  date; uname -r; whoami
+  153  wc this is day 2 of the trainig
+  154  wc
+  155  ls
+  156  rmdir new
+  157  rmdir output.txt
+  158  history
+  159  ls
+  160  pwd
+  161  mkdir traning
+  162  ls
+  163  cd traning
+  164  rmdir traning
+  165  cd . .
+  166  cd..
+  167  cd ..
+  168  rmdir traning
+  169  ls
+  170  cp fst.txt sec.txt
+  171  cp new.txt newfile.txt
+  172  ls
+  173  cp new newfile
+  174  ps
+  175  man -f ls
+  176  ls
+  177  bc
+  178  date
+  179  pwd
+  180  gedit
+  181  echo $SHELL
+  182  printenv SHELL
+  183  whoami
+  184  whais echo
+  185  whatis echo
+  186  whatis printenv
+  187  whatis cat
+  188  whereis cat
+  189  info cat
+  190  sudo apt install gcc
+  191  date
+  192  date "+%D"
+  193  date "+%xD"
+  194  clear
+  195  man date
+  196  cal
+  197  cal 7 2025
+  198  date --date "tomorrow"
+  199  vi sum.c
+  200  cat sum.c
+  201  gcc sum.c
+  202  ./a.out
+  203  nano test.c
+  204  cat test.c
+  205  grep main test.c
+  206  grep ^main test.c
+  207  grep ^int test.c
+  208  grep \; test.c
+  209  vi filecmd
+  210  cat filecmd
+  211  more filecmd
+  212  nano filecmd
+  213  cat filecmd
+  214  more filecmd
+  215  less filecmd
+  216  head filecmd
+  217  head -n 5 filecmd
+  218  tail filecmd
+  219  tail +5 filecmd
+  220  nano sample.txt
+  221  cat sample.txt
+  222  cut -c 1-3 smaple.txt
+  223  cut -c 1-3 sample.txt
+  224  cut -c 4-10 sample.txt
+  225  cut -d ':' -f2 sample.txt
+  226  cut -d ':' -f2,3 sample.txt
+  227  ls
+  228  nano f1
+  229  nano f2
+  230  cat fi
+  231  cat f1
+  232  cat f2
+  233  paste f1 f2
+  234  paste -d ':' f1 f2
+  235  paste -s f1 f2
+  236  cat sample.txt
+  237  sort sample.txt
+  238  sort sample.txt -r
+  239  sort -t ':' -k2 sample.txt
+  240  sort -t ':' -k3 sample.txt
+  241  sort -t ':' -k3 sample.txt -r
+  242  cat sample.txt
+  243  tr ':' '|' < sample.txt
+  244  tr ':' '|' < sample.txt > s1.txt
+  245  cat s1.txt
+  246  tr ':0' '$|' < sample.txt 
+  247  tr -s '0' < sample.txt 
+  248  tr -d '0' < sample.txt 
+  249  nano ex.txt
+  250  cat ex.txt
+  251  uniq ex.txt
+  252  cmp sample.txt s1.txt
+  253  diff sample.txt s1.txt
+  254  nano sed_test
+  255  cat sed_test
+  256  sed 's/hello/hi' sed_test
+  257  sed -i 's/hello/hi' sed_test
+  258  sed -e 's/hello/hi' sed_test
+  259  sed '/simple/d' sed_test
+  260  sed '/hello/hi' sed_test
+  261  sed -e '/hello/hi' sed_test
+  262  sed -n '/hello/p' sed_test
+  263  sed -n '/hello/a everyone' sed_test
+  264  nano student.txt
+  265  awk '{print $1}' student.txt
+  266  awk '{print $1, $3}' student.txt
+  267  awk '$3 > 20 {print $1, $3}' student.txt
+  268  awk 'BEGIN {print "name:, age: "} {print $1, $3}' student.txt
+  269  awk 'BEGIN {print "name:, age:, college: "} {print $1, $2, $3}' student.txt
+  270  awk '{print NR, $1}' student.txt
+  271  awk '/pari/' student.txt
+  272  awk 'END {print "total studemts= " , NR}' student.txt
+  273  clear
+  274  ls -l
+  275  ls -l s1.txt
+  276  chmod u+x s1.txt
+  277  ls -l s1.txt
+  278  chmod o-r s1.txt
+  279  ls - s1.txt
+  280  ls -l s1.txt
+  281  chmod 462 s1.txt
+  282  ls -l s1.txt
+  283  history > day3history.txt

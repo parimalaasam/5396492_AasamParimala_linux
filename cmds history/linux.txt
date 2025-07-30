@@ -1,7 +1,63 @@
-here I am pasting my screen shorts of cmds.
-basic cmds
-filter and pattern matching cmd
-System Info & Environment
-date and time and calendar
-shell scripting
-file views
+Linux Commands - Categorized List with Screenshot Topics
+---------------------------------------------------------
+
+1. Basic Commands
+-----------------
+- ls
+- cd
+- pwd
+- mkdir
+- rm
+- touch
+- cp
+- mv
+
+2. Filter and Pattern Matching Commands
+---------------------------------------
+- grep
+- awk
+- sed
+- cut
+- sort
+- uniq
+- tr
+
+3. System Info & Environment
+----------------------------
+- whoami
+- uname
+- printenv
+- echo $SHELL
+- top
+- ps
+- uptime
+
+4. Date, Time, and Calendar
+---------------------------
+- date
+- cal
+- ncal
+- date "+%Y/%m/%d"
+- date --date "tomorrow"
+- date --date "2 years ago"
+
+5. Shell Scripting
+------------------
+- echo
+- read
+- variables
+- if condition
+- for loop
+- while loop
+- writing and running .sh files
+
+6. File Viewing Commands
+------------------------
+- cat
+- more
+- less
+- head
+- tail
+- wc
+- cmp
+- diff
